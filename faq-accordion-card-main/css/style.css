@@ -99,6 +99,26 @@ body {
   /* box-shadow: 0 0 3px #000; */
 }
 
+.wrapper::before {
+  content: "";
+  background-image: url("../images/illustration-woman-online-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: none;
+  position: absolute;
+
+  background-size: 40%;
+
+  width: 76rem;
+  padding-bottom: 38rem;
+
+  top: -23.3rem;
+  left: -2rem;
+
+  transform: translate(0, 0);
+}
+
 .container {
   width: 100rem;
   margin: 0 auto;

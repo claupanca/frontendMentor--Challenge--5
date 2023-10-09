@@ -1,0 +1,70 @@
+/* ***************************** */
+/* Below 1008px = 63em*/
+/* ***************************** */
+@media (max-width: 63em) {
+  .wrapper {
+    width: 40rem;
+  }
+
+  .container {
+    max-width: 40rem;
+    padding: 5.2rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+  }
+
+  section {
+    padding: 20rem 0;
+  }
+
+  .graphics::after {
+    background-size: 40%;
+
+    width: 76rem;
+    padding-bottom: 38rem;
+
+    top: -23.3rem;
+    left: -2rem;
+
+    transform: translate(0, 0);
+  }
+
+  .graphics::before {
+    display: none;
+  }
+
+  .wrapper::after {
+    background-size: 16%;
+
+    width: 76rem;
+    padding-bottom: 38rem;
+
+    top: -6.3rem;
+    left: 3rem;
+
+    transform: translate(0, 0);
+  }
+
+  .wrapper::before {
+    display: inline-block;
+
+    background-size: 40%;
+
+    width: 76rem;
+    padding-bottom: 23rem;
+
+    top: -14rem;
+    left: 4rem;
+
+    transform: translate(0, 0);
+    z-index: 1;
+  }
+
+  .heading-secondary {
+    text-align: center;
+    margin-top: 2.4rem;
+  }
+}
